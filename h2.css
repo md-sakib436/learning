@@ -1,0 +1,105 @@
+*{
+            box-sizing: border-box;
+            height: auto;
+            flex-wrap: wrap;
+            height: auto;
+            text-align: center;
+            color: rgb(13, 8, 8);
+            
+        }
+
+
+        
+
+        .card{
+            border: 3px solid rgb(188, 143, 87);
+            border-radius:30px;
+            width: 530px;
+            height: 300px;
+            padding:12px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            outline: 5px solid black;
+            border-style: double;
+            background-color: lightgray;
+        }
+            
+        
+
+           .card:hover {
+            text-align: center;
+            background-position-x: right;
+            font-style: italic;
+            
+            
+            
+           }
+            
+        
+        img{
+
+            width: 140px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+           
+
+
+        }
+
+      
+       
+
+      
+
+        label{
+            
+            float: right;
+            display: flex;
+            flex-direction: row-reverse;
+           margin: 2px;
+           padding: 12px;
+            text-transform: capitalize;
+            text-shadow: 2px 3px 14px rgb(235, 218, 135);
+            color: rgb(0, 17, 255);
+            font-size: 20px;}
+         
+
+          
+  
+
+
+        
+        .btn{
+            border: 1px solid rgb(27, 15, 15);
+            display: flex;
+            background-color: rgb(205, 196, 255);
+            margin: 25px;
+            padding: 1px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 2px;
+            
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 12px;
+            font-family: cursive;
+             text-shadow: 2px 4px 7px skyblue; 
+            color: rgb(10, 10, 10);
+           
+
+        }
+
+        .btn:hover{
+            color: orangered;
+            font-size: 10px;
+            
+            
+        }
+        
+input{
+    height: 20px;
+    margin: 20px;
+}

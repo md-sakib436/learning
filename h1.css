@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    background-color:rgb(77, 105, 105);
+}
+
+.sakib{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sakib1{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 11px black;
+    
+}
+.card,
+.skib{
+    width: 100%;
+    max-width: 220px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.container2{
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    justify-content: space-between;
+    
+}
+.text
+{
+    font-weight: 600;
+    margin-top: 5px;
+    display: flex;    
+}
+.price{
+    color: red;
+    font-weight: 600;
+    font-size: large;
+}
+.sakib2{
+    display:flex ;
+    justify-content: space-between;
+    padding: 0px 10px 10px 10px;
+    
+}
+
+  .col,.size{
+    display: flex;
+    gap: 5px; 
+} 
+.red,.blue,.yellow,.s,.m,.l{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+
+} 
+
+.s{
+    border: 3px solid red;   
+}
+.m{
+    border: 3px solid rgb(0, 21, 255);
+}
+.l{
+    border: 3px solid rgb(220, 231, 24);
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 10px 10px;
+}
+.rating{
+    font-weight: 600;
+    font-size: larger;
+}
+.buy{
+    font-size: large;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.skib3{
+    background-color: white;
+    border-radius: 10px;
+    height: 65px;
+
+    box-sizing: border-box;
+    box-shadow: 3px 3px 11px black;
+    margin-top: 10px;  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.company{
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+
+}
+.discount{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px 10px 10px 0px;
+    width: 20%;
+    
+
+}
+
+ @media (max-width: 768px) {
+    .page{
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text{
+        font-size: 14px;
+    } 
+
+    .price{
+        font-size: medium;
+    }
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.skib3:hover,.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);    
+}
+.red:hover,.s:hover{
+    background-color: red;
+}
+.blue:hover,.m:hover{
+    background-color: rgb(210, 106, 9);
+}
+.yellow:hover,.l:hover{
+    background-color: yellow;
+}
